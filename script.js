@@ -1,10 +1,10 @@
 console.log("Running Website");
 
 function showalert() {
-    if (showalert){
+    if showalert() {
        alert("Congratulations!\nYou got the script running.")
     }
-    
 }
-
-
+function button() {
+    showalert();
+}
